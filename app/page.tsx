@@ -8,7 +8,6 @@ import { posts } from '@/content/posts';
 import Container from '@/components/ui/Container';
 import PostCard from '@/components/blog/PostCard';
 import NewsletterBlock from '@/components/blog/NewsletterBlock';
-import AdSlot from '@/components/blog/AdSlot';
 
 export default function HomePage() {
   const [selectedTag, setSelectedTag] = useState<string>('All');
@@ -104,11 +103,6 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
-
-      {/* 2. Leaderboard Ad Placeholder */}
-      <Container size="lg">
-        <AdSlot type="leaderboard" />
-      </Container>
 
       {/* 3. Featured Posts & Category Tabs */}
       <section className="py-6">

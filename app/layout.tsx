@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Playfair_Display, Plus_Jakarta_Sans } from 'next/font/google';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import { GlobalNativeBanner } from '@/components/ads/NativeBanner';
 import '@/src/index.css';
 
 const playfair = Playfair_Display({
@@ -70,6 +71,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#1C1917] antialiased">
         <Header />
         <main className="flex-1">{children}</main>
+        <GlobalNativeBanner />
         <Footer />
       </body>
     </html>

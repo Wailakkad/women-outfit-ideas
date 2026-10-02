@@ -9,7 +9,7 @@ import Container from '@/components/ui/Container';
 import PostCard from '@/components/blog/PostCard';
 import TableOfContents from '@/components/blog/TableOfContents';
 import ShareButtons from '@/components/blog/ShareButtons';
-import AdSlot from '@/components/blog/AdSlot';
+import NativeBanner from '@/components/ads/NativeBanner';
 import NewsletterBlock from '@/components/blog/NewsletterBlock';
 import CostumeGallery from '@/components/blog/CostumeGallery';
 
@@ -195,6 +195,11 @@ export default function BlogPostPage({ params }: PageProps) {
           </p>
         </div>
 
+        {/* Native Banner Ad: Under the Cover Image */}
+        <div className="max-w-4xl mx-auto mb-10">
+          <NativeBanner />
+        </div>
+
         {/* Main Content Layout with Sticky Share Buttons */}
         <div className="relative max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* Left Column: Sticky Share Floating Sidebar */}
@@ -217,9 +222,6 @@ export default function BlogPostPage({ params }: PageProps) {
                 </p>
               ))}
             </div>
-
-            {/* AdSlot #1: Under Intro */}
-            <AdSlot type="in-article" />
 
             {/* Table of Contents */}
             <TableOfContents items={tocItems} />
@@ -370,12 +372,6 @@ export default function BlogPostPage({ params }: PageProps) {
                     </div>
                   )}
 
-                  {/* AdSlot #2: Mid-article after section 2 */}
-                  {sectionIdx === 1 && (
-                    <div className="my-8">
-                      <AdSlot type="in-article" />
-                    </div>
-                  )}
                 </section>
               ))}
             </div>

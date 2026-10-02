@@ -5,7 +5,6 @@ import { Search, SlidersHorizontal } from 'lucide-react';
 import { posts } from '@/content/posts';
 import Container from '@/components/ui/Container';
 import PostCard from '@/components/blog/PostCard';
-import AdSlot from '@/components/blog/AdSlot';
 import NewsletterBlock from '@/components/blog/NewsletterBlock';
 
 export default function BlogHubPage() {
@@ -79,7 +78,7 @@ export default function BlogHubPage() {
           </div>
         </div>
 
-        {/* Posts Grid with native AdSlot */}
+        {/* Posts Grid */}
         {filteredPosts.length === 0 ? (
           <div className="text-center py-16 bg-white rounded-xl border border-[#EAE5DC]">
             <p className="text-stone-500 text-sm">No outfits found matching your search.</p>
@@ -100,9 +99,6 @@ export default function BlogHubPage() {
                 <PostCard key={post.slug} post={post} priority={idx === 0} />
               ))}
             </div>
-
-            {/* Sidebar or Mid-feed AdSlot */}
-            <AdSlot type="native" />
           </div>
         )}
       </Container>
