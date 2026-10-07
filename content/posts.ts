@@ -79,7 +79,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["vintage faceted crystal pendant", "mini box leather clutch"],
     hairMakeup: "Sleek low chignon bun + deep matte berry lipstick.",
     stylingTip: "Add one antique-looking brass or crystal accessory for “witchy” mood without ever looking like a cheap costume.",
-    image: { src: "/images/halloween/costume-01.jpg", alt: "Modern Parisian Witch Outfit" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791377633/Modern_Parisian_Witch.jpg", alt: "Modern Parisian Witch Outfit" },
     imagePrompt: `Ultra-realistic street style photo at dusk on a cobblestone street, woman wearing black mock-neck midi dress, sheer polka-dot tights, pointed slingback kitten heels, wide-brim felt hat, deep berry lipstick, vintage crystal necklace, candid editorial${negativePromptSuffix}`
   },
   {
@@ -91,7 +91,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["multi-strand faux pearl choker", "deep oxblood patent clutch"],
     hairMakeup: "Undone Hollywood soft waves + blurred dark-red ombre lip stain.",
     stylingTip: "Keep the “vampire” cue entirely in the dark blurred lip and architectural cape rather than plastic fangs.",
-    image: { src: "/images/halloween/costume-02.jpg", alt: "Soft-Glam Vampire Muse Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791376873/Soft-Glam_Vampire_Muse_2.jpg", alt: "Soft-Glam Vampire Muse Costume" },
     imagePrompt: `Photoreal editorial indoor low light, woman in black satin slip dress with blazer-cape, candlelit ambience${negativePromptSuffix}`
   },
   {
@@ -103,7 +103,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["thin black velvet ribbon choker", "dainty satin hair bow"],
     hairMakeup: "Neat ballerina high bun + soft charcoal smudged cat-wing liner.",
     stylingTip: "Choose stiff matte tulle and zero sparkle sequins to keep the silhouette firmly in quiet-luxury territory.",
-    image: { src: "/images/halloween/costume-03.jpg", alt: "Coquette Black Swan Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791376872/Coquette_Black_Swan.jpg", alt: "Coquette Black Swan Costume" },
     imagePrompt: `Photoreal soft-shadow studio editorial, woman in black corset top and tiered tulle skirt, realistic fabric texture, minimal retouching${negativePromptSuffix}`
   },
   {
@@ -115,7 +115,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["layered hammered gold medallions", "vintage gemstone rings", "vintage tarot deck prop"],
     hairMakeup: "Tousled beach waves with center part + warm bronzy smoky eyes.",
     stylingTip: "Mix at least three contrasting textures like heavy knitwear, smooth silk, and supple suede.",
-    image: { src: "/images/halloween/costume-04.jpg", alt: "Vintage Fortune Teller Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791377632/Vintage_Fortune_Teller.jpg", alt: "Vintage Fortune Teller Costume" },
     imagePrompt: `Ultra-realistic café corner photo, warm window light, candid, woman holding a tarot card in bohemian chic attire${negativePromptSuffix}`
   },
   {
@@ -127,7 +127,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["round tortoiseshell glasses", "vintage leather book satchel", "black velvet hair ribbon"],
     hairMakeup: "Soft 90s bouncy blowout + muted plum satin lip.",
     stylingTip: "Add one mysterious occult element like an antique astrolabe brooch or black velvet choker.",
-    image: { src: "/images/halloween/costume-05.jpg", alt: "Dark Academia Occult Librarian Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791377631/Dark_Academia_Occult_Librarian.jpg", alt: "Dark Academia Occult Librarian Costume" },
     imagePrompt: `Photoreal library aisle, natural tall window light, woman in houndstooth blazer and pleated skirt reading an antique book${negativePromptSuffix}`
   },
   {
@@ -139,7 +139,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["delicate brass ear cuff", "dark dried floral hairpin", "moss-green mini pouch"],
     hairMakeup: "Glossy textured mermaid waves + fresh berry-bitten lip stain.",
     stylingTip: "Keep wings strictly optional—delicate floral embroidery in the tights and hair jewelry conveys the fairy cue.",
-    image: { src: "/images/halloween/costume-06.jpg", alt: "Wicked Garden Fairy Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791377631/Wicked_Garden_Fairy_Modern.jpg", alt: "Wicked Garden Fairy Costume" },
     imagePrompt: `Photoreal outdoor botanical garden path, golden hour, candid street style fashion shot, dark fairy aesthetic${negativePromptSuffix}`
   },
   {
@@ -151,7 +151,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["feather-texture evening clutch", "sculptural jet-black drop earrings"],
     hairMakeup: "Ultra-sleek mirror ponytail + graphic smoky obsidian liner.",
     stylingTip: "A single dramatic floor-length duster coat makes this look instantly imposing and editorial.",
-    image: { src: "/images/halloween/costume-07.jpg", alt: "Enchanted Raven Muse Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791380386/Enchanted_Raven_Muse.jpg", alt: "Enchanted Raven Muse Costume" },
     imagePrompt: `Photoreal city street, overcast autumn daylight, woman in floor-sweeping black coat and pleated skirt, raven aesthetic${negativePromptSuffix}`
   },
   {
@@ -163,7 +163,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["antique portrait cameo choker", "small dried baby’s breath bouquet"],
     hairMakeup: "Loosely pinned Gibson girl updo with soft tendrils + pale rosy natural complexion.",
     stylingTip: "Pair with modern pointed leather boots rather than costume shoes to ground the silhouette.",
-    image: { src: "/images/halloween/costume-08.jpg", alt: "Victorian Ghost Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791380386/Victorian_Ghost_Elegant.jpg", alt: "Victorian Ghost Costume" },
     imagePrompt: `Photoreal vintage heritage hallway, soft diffused daylight, woman in ivory lace Victorian blouse with dried florals${negativePromptSuffix}`
   },
   {
@@ -175,7 +175,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["sharp acetate cat-eye sunglasses", "minimalist thin wire cat-ear headband"],
     hairMakeup: "Sharp liquid feline wing liner + clean nude satin gloss.",
     stylingTip: "Keep the cat ears tiny and structural—everything else should read as high-end Soho street style.",
-    image: { src: "/images/halloween/costume-09.jpg", alt: "Midnight Black Cat Fashion Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791380387/Midnight_Black_Cat_Fashion.jpg", alt: "Midnight Black Cat Fashion Costume" },
     imagePrompt: `Photoreal Soho street style, daytime, candid photo of woman in leather jacket, mini dress, cat-eye sunglasses and subtle cat ears${negativePromptSuffix}`
   },
   {
@@ -187,7 +187,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["spider-web chantilly lace shawl", "stack of antique silver filigree rings"],
     hairMakeup: "Glass-hair slick center part + glossy obsidian black manicure.",
     stylingTip: "Introduce web motifs exclusively through intricate lace weaving rather than printed costume graphics.",
-    image: { src: "/images/halloween/costume-10.jpg", alt: "Spider Queen Corset Look" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791380384/Spider_Queen_Corset_Look.jpg", alt: "Spider Queen Corset Look" },
     imagePrompt: `Photoreal moody indoor editorial portrait, woman in structured corset and lace shawl, dramatic natural shadows${negativePromptSuffix}`
   },
   {
@@ -199,7 +199,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["architectural silver hoops", "structured mini black leather shoulder bag"],
     hairMakeup: "Natural effortless waves + cool-toned ash grey smoky eyeshadow.",
     stylingTip: "Incorporate only one skeleton design element (the tights) to keep the overall look effortlessly polished.",
-    image: { src: "/images/halloween/costume-11.jpg", alt: "Chic Skeleton Minimal Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791380384/Chic_Skeleton_Minimal.jpg", alt: "Chic Skeleton Minimal Costume" },
     imagePrompt: `Photoreal mirror selfie in a stylish apartment, natural morning window light, woman in black mini dress with subtle bone-pattern tights${negativePromptSuffix}`
   },
   {
@@ -211,7 +211,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["chunky gold tubular hoops", "mini leather pumpkin-shaped bag charm"],
     hairMakeup: "Soft brushed-out barrel curls + warm spiced terracotta lipstick.",
     stylingTip: "Work within a tonal gradient of orange to warm chocolate to capture pumpkin energy without dressing in orange felt.",
-    image: { src: "/images/halloween/costume-12.jpg", alt: "Pumpkin Spice Chic Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791380386/Pumpkin_Spice_Chic.jpg", alt: "Pumpkin Spice Chic Costume" },
     imagePrompt: `Photoreal autumn park surrounded by golden fall leaves, golden hour, woman in burnt-orange sweater dress and slouchy knee boots${negativePromptSuffix}`
   },
   {
@@ -223,7 +223,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["pastel tortoiseshell hair claw clip", "mini leather crossbody pouch"],
     hairMakeup: "High cheerful ponytail + soft peach cream blush and gloss.",
     stylingTip: "Keep each garment clean and timeless; let the nostalgic tri-color blocking do all the talking.",
-    image: { src: "/images/halloween/costume-13.jpg", alt: "Candy Corn Color-Block Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791381227/Candy_Corn_Color-Block.jpg", alt: "Candy Corn Color-Block Costume" },
     imagePrompt: `Photoreal daylight city street shot, candid, woman wearing white sweater, yellow pleated skirt, and orange cardigan${negativePromptSuffix}`
   },
   {
@@ -235,7 +235,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["wide-brim woven straw hat", "braided rope belt"],
     hairMakeup: "Twin loose fishtail braids + warm cinnamon lipstick with a faint stitched eyeliner accent at cheek.",
     stylingTip: "A wide-brim straw hat and classic fall plaid deliver 90% of the scarecrow theme effortlessly.",
-    image: { src: "/images/halloween/costume-14.jpg", alt: "Sweet Scarecrow Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791381226/Sweet_Scarecrow_Modern.jpg", alt: "Sweet Scarecrow Costume" },
     imagePrompt: `Photoreal rustic farm stand with pumpkins, golden hour, candid shot of woman in plaid shirt, straw hat, and fishtail braids${negativePromptSuffix}`
   },
   {
@@ -247,7 +247,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["gilded brass maple leaf hair comb", "delicate layered amber crystal necklace"],
     hairMakeup: "Undone romantic waves + warm copper shimmer on eyelids.",
     stylingTip: "Substitute costume plastic wings for organic botanical hair accessories for a mature, elevated finish.",
-    image: { src: "/images/halloween/costume-15.jpg", alt: "Autumn Fairy Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791381226/Autumn_Fairy_No_Wings.jpg", alt: "Autumn Fairy Costume" },
     imagePrompt: `Photoreal scenic park with vibrant red and yellow autumn trees, natural light, woman in olive satin skirt and cream knit${negativePromptSuffix}`
   },
   {
@@ -259,7 +259,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["crystal celestial star hairpins", "sculptural crescent moon pendant necklace"],
     hairMakeup: "Glass-smooth straight hair + fine silver holographic eyeliner wing.",
     stylingTip: "Dainty celestial jewelry against deep midnight navy reads unmistakably magical without feeling theatrical.",
-    image: { src: "/images/halloween/costume-16.jpg", alt: "Moon & Stars Sorceress Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791381224/Moon_Stars_Sorceress.jpg", alt: "Moon & Stars Sorceress Costume" },
     imagePrompt: `Photoreal night city street lights with soft bokeh, candid, woman in navy satin dress with celestial star hairpins${negativePromptSuffix}`
   },
   {
@@ -271,7 +271,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["laser-cut black lace Venetian eye mask", "single-drop freshwater pearl earrings"],
     hairMakeup: "Sleek low bun with hair oil sheen + classic matte crimson lipstick.",
     stylingTip: "Choose a delicate half-mask that fits comfortably across the brow bone rather than covering the whole face.",
-    image: { src: "/images/halloween/costume-17.jpg", alt: "Masquerade Mystery Girl Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791381224/Masquerade_Mystery_Girl.jpg", alt: "Masquerade Mystery Girl Costume" },
     imagePrompt: `Photoreal evening brownstone doorway shot, woman wearing tailored black coat, red lipstick, and delicate lace eye mask${negativePromptSuffix}`
   },
   {
@@ -283,7 +283,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["oversized satin ribbon headband", "structured mini vintage vanity box handbag"],
     hairMakeup: "Curled doll ringlets + high-set flushed peach blush and glassy rosebud lip.",
     stylingTip: "Keep the makeup soft and modern to avoid the costume slipping into uncanny territory.",
-    image: { src: "/images/halloween/costume-18.jpg", alt: "Haunted Doll High-Fashion Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791381223/Haunted_Doll_High-Fashion.jpg", alt: "Haunted Doll High-Fashion Costume" },
     imagePrompt: `Photoreal indoor daylight studio, woman wearing puff-sleeve babydoll dress, white tights, and platform Mary Janes${negativePromptSuffix}`
   },
   {
@@ -295,7 +295,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["vintage rhinestone tiara", "blank blank silk sash (unbranded)"],
     hairMakeup: "Tousled, slightly unpinned updo + heavy smudged charcoal smoky eye.",
     stylingTip: "Distress your hair and smoky eye makeup while keeping the satin dress pristine for wearable party glam.",
-    image: { src: "/images/halloween/costume-19.jpg", alt: "Zombie Prom Queen Glam Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791389907/Zombie_Prom_Queen_Glam.jpg", alt: "Zombie Prom Queen Glam Costume" },
     imagePrompt: `Photoreal party nightlife flash photography aesthetic, slight motion blur, woman in satin cocktail dress with tiara and smudged eyeliner${negativePromptSuffix}`
   },
   {
@@ -307,7 +307,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["heavy chunky silver chain choker", "black tourmaline crystal ring", "matte black nails"],
     hairMakeup: "Pin-straight parted hair + dark grunge liquid eyeliner.",
     stylingTip: "Incorporate one distinct witch cue like a crescent moon pendant or pointed brim hat to contrast the motorcycle leather.",
-    image: { src: "/images/halloween/costume-20.jpg", alt: "Witchy Biker Girl Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791389908/Witchy_Biker_Girl.jpg", alt: "Witchy Biker Girl Costume" },
     imagePrompt: `Photoreal urban gritty alleyway, natural night street lamp shadows, woman in distressed leather moto jacket and chunky boots${negativePromptSuffix}`
   },
   {
@@ -319,7 +319,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["minimalist sculptural red horn headband", "thick chunky gold hoop earrings"],
     hairMakeup: "Voluminous 70s layered blowout + high-gloss lacquered red lip.",
     stylingTip: "Keep the horns tiny and modern; allow the shimmering red sequins to command the devilish theme.",
-    image: { src: "/images/halloween/costume-21.jpg", alt: "Retro Disco Devil Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791389907/Retro_Disco_Devil_Fashion.jpg", alt: "Retro Disco Devil Costume" },
     imagePrompt: `Photoreal nightclub flash aesthetic, woman in crimson red sequin dress with minimal chic red horns and 70s blowout${negativePromptSuffix}`
   },
   {
@@ -331,7 +331,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["delicate brass wire halo headband", "subtle feather cuff bracelet"],
     hairMakeup: "Soft textured undone waves + luminous dewy glass skin with nude lip.",
     stylingTip: "A monochrome neutral cream palette feels high-fashion and expensive rather than theatrical.",
-    image: { src: "/images/halloween/costume-22.jpg", alt: "Fallen Angel Neutral Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390250/Fallen_Angel_Neutral.jpg", alt: "Fallen Angel Neutral Costume" },
     imagePrompt: `Photoreal soft natural light studio, woman in cream slip dress with wire halo headband, serene and editorial${negativePromptSuffix}`
   },
   {
@@ -343,7 +343,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["mini tilted felt top hat", "vintage brass pocket watch chain"],
     hairMakeup: "Sleek high ponytail + exaggerated sharp winged cat eye.",
     stylingTip: "Sharp razor tailoring makes this concept look like runway Alexander McQueen rather than a circus costume.",
-    image: { src: "/images/halloween/costume-23.jpg", alt: "Dark Ringmaster Circus Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390250/Dark_Ringmaster_Circus.jpg", alt: "Dark Ringmaster Circus Costume" },
     imagePrompt: `Photoreal moody indoor lounge, woman wearing structured military blazer with brass buttons and knee-high riding boots${negativePromptSuffix}`
   },
   {
@@ -355,7 +355,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["pop-red leather shoulder bag", "detachable pleated ruffle neck collar"],
     hairMakeup: "High pigtail buns + sharp graphic triangle eye detail and deep berry pout.",
     stylingTip: "Skip full face paint entirely; translate clown motifs through monochrome stripes and a single red accessory.",
-    image: { src: "/images/halloween/costume-24.jpg", alt: "Creepy Clown Chic Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390250/Creepy_Clown_Chic_Subtle.jpg", alt: "Creepy Clown Chic Costume" },
     imagePrompt: `Photoreal overcast city sidewalk, woman in black and white striped top, pleated skirt, with subtle editorial graphic eye makeup${negativePromptSuffix}`
   },
   {
@@ -367,7 +367,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["bouquet of dried black roses and thistle", "black crystal drop earrings"],
     hairMakeup: "Intricately pinned low romantic updo + velvety deep mauve-berry lipstick.",
     stylingTip: "A modern short birdcage veil reads instantly as bride without requiring a trailing train.",
-    image: { src: "/images/halloween/costume-25.jpg", alt: "Gothic Romance Bride Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390920/Gothic_Romance_Bride.jpg", alt: "Gothic Romance Bride Costume" },
     imagePrompt: `Photoreal moody vintage conservatory, woman wearing black lace dress with short black veil holding dried dark roses${negativePromptSuffix}`
   },
   {
@@ -379,7 +379,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["tattoo-style or velvet ribbon choker", "stack of silver midi rings"],
     hairMakeup: "Messy, uncombed air-dried texture + smudged kohl eyeliner rimming the waterline.",
     stylingTip: "Layer existing basics directly from your closet; no costume purchases required.",
-    image: { src: "/images/halloween/costume-26.jpg", alt: "90s Grunge Witch Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390924/90s_Grunge_Witch.jpg", alt: "90s Grunge Witch Costume" },
     imagePrompt: `Photoreal mirror selfie in a casual bedroom, natural light, woman in flannel shirt over slip dress with combat boots and choker${negativePromptSuffix}`
   },
   {
@@ -391,7 +391,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["wool felt fedora hat", "leather-bound reporter notebook prop"],
     hairMakeup: "Sleek polished waves + matte neutral brown 90s lip.",
     stylingTip: "A belted trench coat and a tilted fedora convey the classic gumshoe persona in seconds.",
-    image: { src: "/images/halloween/costume-27.jpg", alt: "Noir Detective Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390919/Noir_Detective_Halloween.jpg", alt: "Noir Detective Costume" },
     imagePrompt: `Photoreal misty rainy city street, cinematic street light reflections, woman in classic belted trench coat and fedora holding an umbrella${negativePromptSuffix}`
   },
   {
@@ -403,7 +403,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["frameless silver mirror sunglasses", "metallic silver crescent shoulder bag"],
     hairMakeup: "High slicked samurai bun + glossy holographic lip.",
     stylingTip: "Focus on metallic silver streetwear separates rather than an uncomfortable plastic space suit.",
-    image: { src: "/images/halloween/costume-28.jpg", alt: "Retro Space Explorer Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390918/Retro_Space_Explorer.jpg", alt: "Retro Space Explorer Costume" },
     imagePrompt: `Photoreal urban neon night, editorial street style, woman in metallic silver bomber jacket and futuristic mirror sunglasses${negativePromptSuffix}`
   },
   {
@@ -415,7 +415,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["futuristic visor sunglasses", "industrial silver carabiner chain"],
     hairMakeup: "Graphic floating eyeliner wings + wet-finish lip gloss.",
     stylingTip: "One sculptural futuristic accessory anchors the entire sci-fi antagonist vibe.",
-    image: { src: "/images/halloween/costume-29.jpg", alt: "Cyberpunk Villain Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390913/Cyberpunk_Villain_Wearable.jpg", alt: "Cyberpunk Villain Costume" },
     imagePrompt: `Photoreal wet neon-lit city crosswalk, cinematic night, woman in black cargo pants and cropped leather jacket with visor glasses${negativePromptSuffix}`
   },
   {
@@ -427,7 +427,7 @@ export const halloweenOutfits: OutfitIdea[] = [
     accessories: ["minimalist geometric crown headband", "oversized emerald statement earrings"],
     hairMakeup: "Severe sleek center-part low bun + classic velvety blood-red lip.",
     stylingTip: "Invest in a tailored cape coat to elevate the queen concept into high fashion.",
-    image: { src: "/images/halloween/costume-30.jpg", alt: "Storybook Evil Queen Costume" },
+    image: { src: "https://res.cloudinary.com/jfi5wbdy/image/upload/v1791390914/Storybook_Evil_Queen_Modern.jpg", alt: "Storybook Evil Queen Costume" },
     imagePrompt: `Photoreal editorial indoor palace hallway, dramatic architectural shadows, woman in black cape coat and minimal gold crown${negativePromptSuffix}`
   },
   {
